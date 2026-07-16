@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Environment Variables (CRITICAL SECURITY)
+.env
+.env.*
+!.env.example
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -24,7 +29,6 @@ dist-ssr
 *.sw?
 
 .config/
-!.env
 
 .builder/
 builder.config.json
